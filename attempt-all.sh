@@ -21,3 +21,7 @@ time java -jar ./target/shipping-puzzle-1.0.0-SNAPSHOT-standalone.jar;
 
 echo -e "\n### Node.js";
 time node ./src/attempt-2.js;
+
+echo -e "\n### Rust";
+cargo build --release &> /dev/null;
+time ./target/release/shipping-puzzle;
