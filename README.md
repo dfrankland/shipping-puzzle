@@ -57,7 +57,9 @@ Here's the output from running the benchmarks on a 2.2 GHz Intel Core i7 MacBook
 Pro from Mid 2015.
 
 Clojure is v1.9.0, Java is v8u95.
+
 Node.js is v8.11.2.
+
 Rust is nightly 1.31.0 (4699283c5 2018-10-13).
 
 ```
