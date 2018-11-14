@@ -18,3 +18,6 @@ echo -e "\n### Clojure";
 lein with-profile attempt2 compile &> /dev/null;
 lein with-profile attempt2 uberjar &> /dev/null;
 time java -jar ./target/shipping-puzzle-1.0.0-SNAPSHOT-standalone.jar;
+
+echo -e "\n### Node.js";
+time node ./src/attempt-2.js;
