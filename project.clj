@@ -5,3 +5,6 @@
     :attempt1 {
       :aot  [test.attempt1]
       :main test.attempt1}
+    :attempt2 {
+      :aot  [test.attempt2]
+      :main test.attempt2}})
